@@ -1,0 +1,9 @@
+
+script destroy_signin_changed_menu 
+	destroy_popup_warning_menu
+endscript
+
+script recreate_signin_changed_menu 
+	destroy_signin_changed_menu
+	create_signin_changed_menu
+endscript
