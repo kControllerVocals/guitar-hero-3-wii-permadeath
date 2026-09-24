@@ -225,7 +225,7 @@ script Progression_EndCreditsPermadeath
 	printf \{"CREDITS2 BEGIN"}
 	change \{current_level = load_z_credits}
 	ui_flow_manager_respond_to_action \{action = select_retry}
-	change \{current_song = dlc1504750512}
+	change \{current_song = impulse}
 	create_loading_screen
 	Load_Venue
 	restart_gem_scroller song_name = ($current_song) difficulty = ($current_difficulty) difficulty2 = ($current_difficulty2) starttime = 0 end_credits_restart = 1

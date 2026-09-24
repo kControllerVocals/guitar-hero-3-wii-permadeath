@@ -1208,7 +1208,7 @@ script GuitarEvent_SongWon_Spawned
 		if ScreenElementExists \{id = yourock_text}
 			DestroyScreenElement \{id = yourock_text}
 		endif
-	elseif ($end_credits = 1 && $current_song = thrufireandflames)
+	elseif ($end_credits = 1 && $current_song = impulse)
 		destroy_menu \{menu_id = yourock_text}
 		destroy_menu \{menu_id = yourock_text_2}
 		change \{end_credits = 0}

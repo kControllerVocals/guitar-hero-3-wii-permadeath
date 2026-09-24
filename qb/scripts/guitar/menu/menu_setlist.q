@@ -637,11 +637,10 @@ script setlist_choose_song \{device_num = 0}
 endscript
 
 script setlist_debug_completesong 
-	return
 	if ($game_mode = training || $is_network_game = 1)
 		return
 	endif
-	enable_cheat = 0
+	enable_cheat = 1
 	if ($enable_button_cheats = 1)
 		enable_cheat = 1
 	endif
